@@ -12,4 +12,9 @@
     - name: Install Visual Studio Code
       win_chocolatey:
        name: vscode
-       state: present       
+       state: present
+    - name: Install Firefox
+      win_chocolatey:
+       name: firefox
+       state: present
+   
